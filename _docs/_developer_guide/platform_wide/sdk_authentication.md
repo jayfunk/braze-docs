@@ -295,6 +295,7 @@ The "**Optional**" setting is a useful way to monitor the potential impact this 
 Invalid JWT signatures will be reported in both **Optional** and **Required** states, however only the **Required** state will reject SDK requests causing apps to retry and request new signatures.
 
 ## Error Codes {#error-codes}
+
 | Error Code| Error Reason | Description |
 | --------  | ------------ | ---------  |
 | 10 | `VERIFICATION_RESULT_EXPIRATION_REQUIRED` | Expiration is a required field for Braze usage.|
