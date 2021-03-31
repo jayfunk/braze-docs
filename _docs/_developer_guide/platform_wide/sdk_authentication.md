@@ -295,18 +295,18 @@ The "**Optional**" setting is a useful way to monitor the potential impact this 
 Invalid JWT signatures will be reported in both **Optional** and **Required** states, however only the **Required** state will reject SDK requests causing apps to retry and request new signatures.
 
 ## Error Codes {#error-codes}
-| Error Code| Error Reason | Description|
+| Error Code| Error Reason | Description |
 | --------  | ------------ | ---------  |
-| 10 | VERIFICATION_RESULT_EXPIRATION_REQUIRED | Expiration is a required field for Braze usage.|
-| 20 | VERIFICATION_RESULT_DECODING_ERROR | Non-matching public key or a general uncaught error. |
-| 21 | VERIFICATION_RESULT_SUBJECT_MISMATCH | The expected and actual subjects are not the same. |
-| 22 | VERIFICATION_RESULT_EXPIRED | The token provided has expired.|
-| 23 | VERIFICATION_RESULT_INVALID_PAYLOAD | The token payload is invalid. |
-| 24 | VERIFICATION_RESULT_INCORRECT_ALGORITHM | The algorithm of the token is not supported. |
-| 25 | VERIFICATION_RESULT_PUBLIC_KEY_ERROR | The public key could not be converted into the proper format. |
-| 26 | VERIFICATION_RESULT_MISSING_TOKEN | No token was provided in the request. |
-| 27 | VERIFICATION_RESULT_NO_MATCHING_PUBLIC_KEYS | No public keys matched the provided token. |
-| 28 | VERIFICATION_RESULT_PAYLOAD_USER_ID_MISMATCH | Not all user ids in the request payload match as is required. |
+| 10 | `VERIFICATION_RESULT_EXPIRATION_REQUIRED` | Expiration is a required field for Braze usage.|
+| 20 | `VERIFICATION_RESULT_DECODING_ERROR` | Non-matching public key or a general uncaught error.|
+| 21 | `VERIFICATION_RESULT_SUBJECT_MISMATCH` | The expected and actual subjects are not the same.|
+| 22 | `VERIFICATION_RESULT_EXPIRED` | The token provided has expired.|
+| 23 | `VERIFICATION_RESULT_INVALID_PAYLOAD` | The token payload is invalid.|
+| 24 | `VERIFICATION_RESULT_INCORRECT_ALGORITHM` | The algorithm of the token is not supported.|
+| 25 | `VERIFICATION_RESULT_PUBLIC_KEY_ERROR` | The public key could not be converted into the proper format.|
+| 26 | `VERIFICATION_RESULT_MISSING_TOKEN` | No token was provided in the request.|
+| 27 | `VERIFICATION_RESULT_NO_MATCHING_PUBLIC_KEYS` | No public keys matched the provided token.|
+| 28 | `VERIFICATION_RESULT_PAYLOAD_USER_ID_MISMATCH` | Not all user ids in the request payload match as is required.|
 {: .reset-td-br-1 .reset-td-br-2, .reset-td-br-3}
 
 ## Frequently Asked Questions {#faq}
