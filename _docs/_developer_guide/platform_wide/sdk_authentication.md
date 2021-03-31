@@ -9,6 +9,7 @@ platform:
   - web
 ---
 
+<br><br>
 {% alert important %}
 This feature is in _beta_ and only available for Android, Web, and iOS SDKs.
 {% endalert %}
